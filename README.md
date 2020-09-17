@@ -36,7 +36,7 @@ There are many options but dialogId is required param, all others are optional
 
 * *buttons* - is a object, key:"buttonId", value: 'button label'  example: {"sendEmailId": "Confirm"};
 
-* *hasDatatable" - is a boolean value to indicate whether the dialog contains a dataTable
+* *hasDatatable* - is a boolean value to indicate whether the dialog contains a dataTable
 * *No need to pass cancel button*
   
 
