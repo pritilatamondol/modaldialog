@@ -3,7 +3,7 @@ Create a modal dialog
 
 # Instalation
 
-`npm i modaldialog  --save'
+`npm i modaldialog  --save`
 
 Then.........
 
@@ -17,15 +17,15 @@ import {modaldialog } from 'modaldialog';
 
 
  
-    *  *dialogId: the id of the dialog, is a string and required field
+    *  *dialogId* - the id of the dialog, is a string and required field
 
-    *  *formObj: {formName: "sendEmailForm", action: "/smarttask/saveMeta", method: "POST"}; //optional field you can pass as  null
+    *  *formObj* - {formName: "sendEmailForm", action: "/smarttask/saveMeta", method: "POST"}; //optional field you can pass as  null
 
-    title: dialog header text //required
+    * *title* - dialog header text //required
 
-    subTitle: description of the dialog //optional, you can pass empty string ""
+    * *subTitle* - description of the dialog //optional, you can pass empty string ""
 
-    labelAndElmType: is a object, key: "label text", value: "input type", example: {"Assignee" : "select", "Subject": 'text'} //required if dialog has input fields
+    * *labelAndElmType* - is an object, key: "label text", value: "input type", example: {"Assignee" : "select", "Subject": 'text'} //required if dialog has input fields
 
     fieldsValue: is a object, key: "label text", value: [ inputName, inputValue, requiredField, className,"checked"(if checkbox) or "hasGroupOption", "extraOptions" (for select box)]
 
