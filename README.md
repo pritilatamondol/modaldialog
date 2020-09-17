@@ -16,7 +16,7 @@ import {modaldialog } from 'modaldialog';
 ## Options
 There are many options but dialogId is required param, all others are optional
 
-* *dialogId* - the id of the dialog, is a string and required field
+* *dialogId* - the id of the dialog, is a string passing like "#taskDialog" and a required field
 * *formObj* - {formName: "sendEmailForm", action: "/smarttask/saveMeta", method: "POST"}; //optional field you can pass as null
 
 * *title* - dialog header text //required
