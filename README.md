@@ -14,18 +14,16 @@ import {modaldialog } from 'modaldialog';
 ```
 
 ## Options
+There are many options but dialogId is required param, all others are optional
 
+* *dialogId* - the id of the dialog, is a string and required field
+* *formObj* - {formName: "sendEmailForm", action: "/smarttask/saveMeta", method: "POST"}; //optional field you can pass as null
 
- 
-    *  *dialogId* - the id of the dialog, is a string and required field
+* *title* - dialog header text //required
 
-    *  *formObj* - {formName: "sendEmailForm", action: "/smarttask/saveMeta", method: "POST"}; //optional field you can pass as  null
+* *subTitle* - description of the dialog //optional, you can pass empty string ""
 
-    * *title* - dialog header text //required
-
-    * *subTitle* - description of the dialog //optional, you can pass empty string ""
-
-    * *labelAndElmType* - is an object, key: "label text", value: "input type", example: {"Assignee" : "select", "Subject": 'text'} //required if dialog has input fields
+* *labelAndElmType* - is an object, key: "label text", value: "input type", example: {"Assignee" : "select", "Subject": 'text'} //required if dialog has input fields
 
     fieldsValue: is a object, key: "label text", value: [ inputName, inputValue, requiredField, className,"checked"(if checkbox) or "hasGroupOption", "extraOptions" (for select box)]
 
