@@ -184,4 +184,4 @@ const createModalFooter = (params) => {
     return modalFooter + '</div>';
   };
 
-  module.exports.modaldialog = modaldialog;
+  module.exports.modaldialog = createModalDialog;
