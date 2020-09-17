@@ -3,13 +3,13 @@ Create a modal dialog
 
 # Instalation
 
-`npm i modaldialog  --save`
+`npm i naehasdialog  --save`
 
 Then.........
 
 
 ```
-import {modaldialog } from 'modaldialog';
+import {modaldialog } from 'naehasdialog';
 
 createModalDialog("#taskDialog",null, 'New Task', "", {"Task Title": 'text', "Subject" : 'textarea'}, 
 {"Task Title":['stitle','New Task'], "Subject":['subject','testing']}, {"saveId":'Save'});
