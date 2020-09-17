@@ -11,6 +11,9 @@ Then.........
 ```
 import {modaldialog } from 'modaldialog';
 
+createModalDialog("#taskDialog",null, 'New Task', "", {"Task Title": 'text', "Subject" : 'textarea'}, {"Task Title":['stitle','New Task'], "Subject":['subject','testing']}, {"saveId":'Save'});
+
+
 ```
 
 ## Options
